@@ -1,0 +1,82 @@
+<!--
+ Copyright 2016 Google Inc.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://weather-pwa-sample.firebaseapp.com/final/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Laura Daufeld</title>
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+
+  <!-- TODO add manifest here -->
+  <link rel="manifest" type="application/json" href="/manifest.json">
+
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="CV Laura">
+  <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#51A7F9">
+
+</head>
+<body>
+
+	<!-- HEADER -->
+  	<header>
+      <span class="header__icon">
+        <svg class="menu__icon no--select" width="24px" height="24px" viewBox="0 0 48 48" fill="#fff">
+          <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
+        </svg>
+      </span>
+      <span class="header__title">CV Laura Daufeld</span>
+    </header>
+
+    <!-- MENU -->
+  	<div class="menu">
+  	  <div class="menu__header"></div>
+      <ul class="menu__list">
+      	<li>
+          <a target="_blank" rel="noopener" href="profil.html"">Profil</a>
+        </li>
+        <li>
+          <a target="_blank" rel="noopener" href="formation.html">Formation</a>
+        </li>
+        <li>
+          <a target="_blank" rel="noopener" href="index.html">Expérience</a>
+        </li>
+        <li>
+          <a target="_blank" rel="noopener" href="contact.html">Contact</a>   
+        </li>
+      </ul>
+    </div>
+    <div class="menu__overlay"></div>
+
+  <!-- CARDS -->  
+  <main class="main">
+    <div class="text">Je suis étudiante en Licence Professionnelle Systèmes Informatiques et Logiciels spécialité Développement d'Applications Mobiles à l'université de Nice Sophia Antipolis. <br/><br/> Ceci est un projet de Progressive Web App en cours de Technologies Mobiles.</div>
+  </main>
+
+  <!-- Uncomment the line below when ready to test with fake data -->
+  <script src="scripts/app.js" async></script>
+  <script src="scripts/menu.js"></script>
+
+</body>
+</html>
