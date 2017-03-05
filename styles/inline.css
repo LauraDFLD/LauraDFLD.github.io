@@ -294,10 +294,10 @@ body {
     content: "Entreprise: ";
     color: #888; }
   .weather-forecast .current .pollen:before {
-    content: "Pollen Count: ";
+    content: "Formation: ";
     color: #888; }
   .weather-forecast .current .pcount:before {
-    content: "Pollen ";
+    content: "Ecole: ";
     color: #888; }
 
 .weather-forecast .future {
